@@ -1,0 +1,6 @@
+    *=  $3000
+        lda #33
+        sta $2fff
+        lda #2
+        adc $2fff
+        stx $2fff
