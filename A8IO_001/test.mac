@@ -4,3 +4,4 @@
         lda #2
         adc $2fff
         stx $2fff
+   rts
